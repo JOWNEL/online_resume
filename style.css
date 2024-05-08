@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: tan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(255, 0, 0, 0.1); 
+    margin: 50px;
+}
+
+
+.container .left_side {
+    position: relative;
+    background: rgb(233, 167, 82);
+    padding: 40px;
+}
+
+.profiletext {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.897);
+}
+.profiletext h2
+{
+    color: rgb(2, 0, 0);
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+
+
+   
+}
+.profiletext h2 span
+{
+    font-size: 0.8em;
+    font-style: 300;
+    
+
+   
+}
+.contactinfo
+{
+    
+    padding: 10px;
+
+
+}
+.title
+{
+    color:rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contactinfo ul
+{
+    position: relative;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.897);
+}
+.contactinfo ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+}
+.contactinfo ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(255, 233, 195);
+}
+.contactinfo ul li span{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+
+
+
+
+.profiletext .imgBx {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profiletext .imgBx img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .right_side  {
+    position: relative;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    
+    
+}
+.contactinfo.education ul li
+{
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.contactinfo.education h5
+{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+
+}
+.contactinfo.education h4
+{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.contactinfo.education h4
+{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    
+}
+
+.about
+{
+    margin-bottom: 0;
+}
+
+
+.about :last-child
+{
+    margin-bottom: 0;
+}
+.title2
+{
+    
+    color: rgb(189, 145, 63);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-size: 130%;
+    padding: 20px;
+}
+p
+{
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    
+}
+.interest ul{
+    display: grid;   
+    grid-template-columns: repeat(4,1fr);
+
+}
+.interest ul li{
+    list-style: none;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    margin: 10px;
+}
+.interest ul li .fa 
+{
+    color: rgb(232, 186, 130);
+    font-size: 18px;
+    width: 20px;
+
+}
+.applicant
+{
+    margin-top: 50px;
+    text-align: center;
+}
